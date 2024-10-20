@@ -8,17 +8,38 @@ body{
 }
 
 header{
-    height: 50px;
-    background-color: rgb(255, 168, 127);
+    height: 100px;
+    background-color: rgb(195, 191, 191);
+    background-image: url("https://assets.cityexperiences.com/wp-content/uploads/2022/06/golden-gate-bridge-sf.jpg");
+    background-position: center;
+    text-align: center;
+    padding: 50px;
 }
 
 footer{
     height: 50px;
-    background-color: rgb(255, 168, 127);
-}
-
-.container{
-    height: 50px;
-    flex: 1;
+    text-align: center;
+    background-color: rgb(195, 191, 191);
     
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    background-color: darkslategray;
+}
+
+.section {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(210, 180, 125, 0.1);
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
