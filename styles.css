@@ -24,7 +24,7 @@ body{
 }
 
 .container {
-    flex: 1;
+    flex: 1 1 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,3 +115,38 @@ footer{
 .topic{
     flex: 1;
 }
+
+/* Mobile Format */
+@media (max-width: 768px) {
+    .headertext {
+        font-size: 1.5em;
+    }
+    
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .nav {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .section {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    footer {
+        font-size: 0.8em;
+        height: auto;
+        padding: 10px;
+    }
+}
+
