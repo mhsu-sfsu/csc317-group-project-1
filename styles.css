@@ -36,6 +36,11 @@ body{
     height: 100%;
 }
 
+h2{
+    display:inline-flex;
+    align-items: center;
+}
+
 header{
     height: 50px;
     background-color: rgb(195, 191, 191);
@@ -44,6 +49,22 @@ header{
     text-align: center;
     padding: 20px;
     background-blend-mode:soft-light;
+}
+
+h2::first-letter{
+    font-size:150%;
+    font-weight:bolder;
+    letter-spacing: 0.05cap;
+}
+
+h2::before{
+    background:url(ticket-holiday-heart-svgrepo-com.svg);
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    display:inline-block;
+    content:"";
+    margin-right:8px;
 }
 
 nav{
