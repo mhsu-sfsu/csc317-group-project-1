@@ -69,6 +69,10 @@ nav{
     color:darkgray;
 }
 
+.nav:active{
+    color:rgb(129, 17, 17);
+}
+
 footer{
     height: 30px;
     text-align: center;
